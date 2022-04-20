@@ -207,4 +207,8 @@ footer {
     .main_content .inner_frame {
         flex-direction: column;
     }
+    .text_masthead {
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
 }
