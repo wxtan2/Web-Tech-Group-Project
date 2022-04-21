@@ -128,7 +128,7 @@ body {
 }
 
 #mobileToggle ion-icon {
-    font-size: 34px;
+    font-size: 40px;
     color: #ffffff;
     transition: 0.3s;
 }
@@ -245,7 +245,6 @@ footer {
         z-index: 1000;
     }
     .active #mobileToggle ion-icon {
-        font-size: 34px;
         color: #333333;
         transition: 0.3s;
     }

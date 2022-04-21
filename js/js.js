@@ -14,11 +14,14 @@ $(document).ready(function() {
         if ($(".navigation_bar").hasClass("active")) {
             $(".navigation_bar").removeClass("active");
             $(this).removeClass("active");
+            $('#toggle').attr("name", "list")
+
 
 
         } else {
             $(".navigation_bar").addClass("active");
             $(this).addClass("active");
+            $('#toggle').attr("name", "close")
 
         }
 
