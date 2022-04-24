@@ -134,6 +134,17 @@ body {
     transition: 0.3s;
 }
 
+.mobileLogo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    display: none;
+    position: absolute!important;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+}
+
 
 /* masthead */
 
@@ -267,5 +278,9 @@ footer {
     .text_masthead {
         margin-left: 0!important;
         margin-right: 0!important;
+    }
+    .mobileLogo {
+        display: flex;
+        z-index: 1000;
     }
 }
