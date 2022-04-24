@@ -10,18 +10,18 @@ $(document).ready(function() {
         $("#topMenuPage").addClass('setting');
     }
 
-    $("#mobileToggle").on("click", function() {
+    $(".mobileToggle").on("click", function() {
         if ($(".navigation_bar").hasClass("active")) {
             $(".navigation_bar").removeClass("active");
             $(this).removeClass("active");
-            $('#toggle').attr("name", "list")
+            $('.toggle').attr("name", "list")
 
 
 
         } else {
             $(".navigation_bar").addClass("active");
             $(this).addClass("active");
-            $('#toggle').attr("name", "close")
+            $('.toggle').attr("name", "close")
 
         }
 
