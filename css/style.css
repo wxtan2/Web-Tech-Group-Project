@@ -115,7 +115,7 @@ body {
     margin-right: 0px;
 }
 
-#mobileToggle {
+.mobileToggle {
     position: absolute!important;
     top: 50%;
     transform: translateY(-50%);
@@ -125,9 +125,10 @@ body {
     height: 40px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
-#mobileToggle ion-icon {
+.mobileToggle ion-icon {
     font-size: 40px;
     color: #ffffff;
     transition: 0.3s;
@@ -240,11 +241,11 @@ footer {
     .navigation_bar .inner_frame a:not(:first-child)::before {
         background-color: #333333;
     }
-    #mobileToggle {
+    .mobileToggle {
         display: flex;
         z-index: 1000;
     }
-    .active #mobileToggle ion-icon {
+    .active .mobileToggle ion-icon {
         color: #333333;
         transition: 0.3s;
     }
